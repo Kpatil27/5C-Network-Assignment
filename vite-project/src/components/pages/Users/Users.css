@@ -1,0 +1,62 @@
+body {
+    color:black;
+}
+.user-information {
+    background-color: rgb(27, 25, 25);
+    padding: 30px 30px;
+    border-radius: 10px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    
+    color: wheat;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.user-information image{
+    width:30%;
+    margin-right: 30px;
+}
+.user-information .image img {
+    width:200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.more-data {
+    
+    
+    font-size: 15px;
+    font-weight: 100;
+}
+.more-data p{
+    display: flex;
+   padding: 4px;
+    align-items: center;
+}
+.user-content {
+    padding: 10px;
+}
+
+.back {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 7px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0;
+}
+.user-repos {
+    background-color: lightblue;
+        padding: 10px 30px;
+        border-radius: 10px;
+        margin: 20px 0;
+}
+.repo {
+padding: 20px;
+}
+.repo a{
+    color: black;
+}
